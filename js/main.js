@@ -4,6 +4,11 @@ var hero;
 function preload() {
 
   game.load.atlasJSONHash('sheet', './assets/sheets/sheet.png', './assets/sheets/sheet.json');
+  game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
+
+    //have the game centered horizontally
+    game.scale.pageAlignHorizontally = true;
+    game.scale.pageAlignVertically = true;
 
 }
 
@@ -14,8 +19,8 @@ function create() {
   hero.scale.setTo(20, 20);
   hero.smoothed = false;
 
-  hero.animations.add('walk', Phaser.Animation.generateFrameNames('hero/walk/', 1, 4, '', 1), 10, true, false);
-  hero.animations.play('walk');
+  hero.animations.add('walk');
+  hero.animations.play('walk', true);
 
   game.load.start();
 
