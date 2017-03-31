@@ -7,11 +7,4 @@
 ## Resources
 - [Twin Dragons](http://opengameart.org/content/twin-dragons)
 - [Extra Graphics for Twin Dragons Spritesheet](http://opengameart.org/content/extra-graphics-for-twin-dragons-spritesheet)
-
-## To Do List
-- [x] Sprite and tile sheets
-- [ ] Basic controls and tile layout
-- [ ] Collectables and score
-- [ ] Playable character upgrades
-- [ ] Advanced level layouts
-- And more!
+- [8-bit ducky](https://www.dl-sounds.com/royalty-free/8-bit-ducky/)
