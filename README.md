@@ -1,8 +1,6 @@
 # Platformer Game
 Basic 2-dimensional platformer game written in Phaser JS. Screenshot of gameplay below.
 
-Game can be played at: https://jhart9.github.io/Platformer/
-
 ![Game Screenshot](/assets/screen.png)
 
 ## Technologies & Tools
